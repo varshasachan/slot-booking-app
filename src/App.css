@@ -7,6 +7,22 @@
   pointer-events: none;
 }
 
+.Header {
+  background: #001a33;
+  height: 120px;
+}
+
+.Row {
+  display:inline-block;
+ padding-left: 100px;
+  width:500px
+}
+
+.TextCol {
+  color: antiquewhite;
+  padding-top: 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
